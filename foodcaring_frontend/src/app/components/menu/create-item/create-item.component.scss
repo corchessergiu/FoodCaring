@@ -1,0 +1,64 @@
+.button-align{
+    margin-left: 23%;
+    padding-bottom: 15px;
+}
+.card-img-top {
+    width: 190px;
+    height: 190px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.images-preview img {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.images-preview{
+    padding: 10px 10px 10px 10px;
+    background-color: #fafafa;
+    border-radius: 4px;
+    border: 1px dashed #d9d9d9;
+    margin-top: 4%;
+}
+.images-preview .card-body{
+    padding: 1rem;
+}
+
+.card{
+    padding-right: 10px;
+}
+.images-preview .remove-icon{
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+    background-color:red;
+}
+
+.button-file{
+   margin-left: 12%;
+   margin-top: 2%;
+}
+
+.modal-title {
+  display: inline-block;
+  background: linear-gradient(90deg, red, midnightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Bahnschrift", "Times New Roman", Times, serif;
+}
+.button{
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.button:hover{
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.1);
+}
+

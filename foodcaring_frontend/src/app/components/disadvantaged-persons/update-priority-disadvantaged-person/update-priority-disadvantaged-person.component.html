@@ -1,0 +1,13 @@
+<a title="Increase Priority" (click)="updatePriority(disadvantagedPerson.id, 1)">
+  <span class="material-icons button-icon" >
+expand_less
+</span></a>
+<div title="Priority">{{disadvantagedPerson.priority}}</div>
+<a title="Decrease Priority" (click)="updatePriority(disadvantagedPerson.id, -1)">
+  <span class="material-icons button-icon" *ngIf="disadvantagedPerson.priority > 0">
+expand_more
+</span></a>
+<span class="material-icons button-icon-disabled" *ngIf="disadvantagedPerson.priority <= 0">
+expand_more
+</span>
+
